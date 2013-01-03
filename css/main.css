@@ -96,7 +96,7 @@ textarea {
 #main {
     max-width: 1260px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 25px;
 }
 
 header {
@@ -104,7 +104,12 @@ header {
 }
 
 header h1 {
-    font-size: 3em;
+    font: 900 48px/1.1 "merriweather";
+}
+
+h1 a {
+    color: #333;
+    text-decoration: none;
 }
 
 header .strapline {
@@ -115,9 +120,8 @@ hr {
     border-color: #aaa;
 }
 
-footer {
-    padding: 2em 0;
-    border-top: solid 1px #333;
+p {
+    font: 400 14px/22px "merriweather", Serif;
 }
 
 article img {
@@ -134,10 +138,17 @@ article h2 {
 
 .meta {
     color: #999;
+    font-size: 0.82em;
 }
 
 .meta span {
-    display: block;
+    display: inline-block;
+}
+
+footer {
+    padding: 2em 0;
+    border-top: solid 1px #333;
+    color: #bbb;
 }
 
 /* ==========================================================================
